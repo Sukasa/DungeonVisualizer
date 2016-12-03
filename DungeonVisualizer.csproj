@@ -84,6 +84,10 @@
       <Project>{a2b3e0da-882e-4d1a-97f3-8d40d1a6ccc0}</Project>
       <Name>Dungeon Generator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SimpleRNG\RNGLib.csproj">
+      <Project>{b53fee9f-3805-4704-8c12-c3f8e2aa76a3}</Project>
+      <Name>RNGLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
